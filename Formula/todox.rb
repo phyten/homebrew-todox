@@ -3,25 +3,25 @@ class Todox < Formula
   homepage "https://github.com/phyten/todox"
   license "MIT"
 
-  version "0.12.1"
+  version "0.13.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/phyten/todox/releases/download/v0.12.1/todox-v0.12.1-darwin-arm64.tar.gz"
-      sha256 "20e25a20f8dbb265b4741bfaa9ed24dc9e6e9267a80e215c997f3fe099c5ef61"
+      url "https://github.com/phyten/todox/releases/download/v0.13.0/todox-v0.13.0-darwin-arm64.tar.gz"
+      sha256 "6dc404b64ba6bab22a617f839810cd09bbf152c010f0685c164dcf59f22924c3"
     else
-      url "https://github.com/phyten/todox/releases/download/v0.12.1/todox-v0.12.1-darwin-amd64.tar.gz"
-      sha256 "bd069837059dc07e8c44025387fcbb939b2fb011483f06daf58b20a0b606388c"
+      url "https://github.com/phyten/todox/releases/download/v0.13.0/todox-v0.13.0-darwin-amd64.tar.gz"
+      sha256 "2666e49dcddd415bdddede4d54e0798be0106ede779042bbeb51d8a26842a1e7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/phyten/todox/releases/download/v0.12.1/todox-v0.12.1-linux-arm64.tar.gz"
-      sha256 "d81cfda38443a4e97df732978739b76e4e7525cb03347bba74e3c449c90a5036"
+      url "https://github.com/phyten/todox/releases/download/v0.13.0/todox-v0.13.0-linux-arm64.tar.gz"
+      sha256 "f7751e42fa325a51c56d215948775b31c214776e32793fdcf0caeebfa6947a2b"
     else
-      url "https://github.com/phyten/todox/releases/download/v0.12.1/todox-v0.12.1-linux-amd64.tar.gz"
-      sha256 "281ee1bde590100609861805ebf53a717955b28fda6f90615529d8330dbad53c"
+      url "https://github.com/phyten/todox/releases/download/v0.13.0/todox-v0.13.0-linux-amd64.tar.gz"
+      sha256 "4b37e59b6f1b96647484b0274dfe9b181ff2c2f51b2ab92d39d54f5cb133aed9"
     end
   end
 
